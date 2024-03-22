@@ -87,19 +87,20 @@
     border: none;
     outline: none;
     border-radius: 4px;
+    /* transition: all 0.3s ease; */
     background: #1148fc;
     color: #fff;
 }
 
 .button:hover {
     background: #0095f8;
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
 }
 
 .navbar__links:hover {
     /* change this highlight color to #0095f8 */
     color: #00ff80;
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
 }
 
 @media screen and (max-width: 960px) {
@@ -121,7 +122,7 @@
         position: absolute;
         top: -1000px;
         opacity: 0;
-        /*transition: all 0.5s ease;*/
+        /* transition: all 0.5s ease; */
         transition: none;
         height: 50vh;
         z-index: -1;
@@ -132,7 +133,7 @@
         background: #131313;
         top: 100%;
         opacity: 1;
-        transition: all 0.5 ease;
+        /* transition: all 0.5 ease; */
         z-index: 99;
         height: 50vh;
         font-size: 1.6rem;
@@ -231,7 +232,7 @@
 
 .main__content p {
     margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #fff;
 }
@@ -247,7 +248,7 @@
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
-    /*transition: all 0.35s;*/
+    /* transition: all 0.3s ease; */
     outline: none;
 }
 
@@ -258,25 +259,26 @@
     text-decoration: none;
 }
 
-.main__btn::after {
+/* .main__btn:after {
     position: absolute;
     content: '';
     top: 0;
     left: 0;
     width: 0;
     height: 100%;
-    background: #4837ff;
-    /*transition: all 0.35s;*/
+    background: #0095f8;
+    transition: all 0.3s ease;
     border-radius: 4px;
+} */
+
+.main__btn:hover {
+    background: #0095f8;
+    /* transition: all 0.3s ease; */
 }
 
-.main__btn::hover {
-    color: #fff;
-}
-
-.main__btn::hover::after {
+/* .main__btn:hover:after {
     width: 100%;
-}
+} */
 
 .main__img--container {
     text-align: center;
