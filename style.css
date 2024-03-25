@@ -332,3 +332,10 @@
         margin: 2.5rem 0;
     }
 }
+
+.games iframe {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
