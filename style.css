@@ -29,7 +29,7 @@
 }
 
 #navbar__logo {
-    /*font-family: '8BIT WONDER', sans-serif;*/
+    font-family: '8BIT WONDER', sans-serif;
     background-color: #00d9ff;
     background-image: linear-gradient(to top, #08a0ff 14%, #00ff33 86%);
     background-size: 100%;
