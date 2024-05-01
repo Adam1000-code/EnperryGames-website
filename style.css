@@ -273,12 +273,12 @@
 
 .main__btn:hover {
     background: #0095f8;
-    /* transition: all 0.3s ease; */
+    transition: all 0.3s ease;
 }
 
-/* .main__btn:hover:after {
+.main__btn:hover:after {
     width: 100%;
-} */
+}
 
 .main__img--container {
     text-align: center;
